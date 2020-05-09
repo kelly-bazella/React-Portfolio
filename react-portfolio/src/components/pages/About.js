@@ -5,10 +5,11 @@ import "../../index.css";
 
 function About() {
   return (
-    <div className="container">
+    
         
         <div className="container">
-            <h2>About Me</h2>
+            <h2
+            >About Me</h2>
             <hr />
             <div className="row">
               <div className="col-md-3">
@@ -22,7 +23,7 @@ function About() {
             </div>
             <div className="row">
               <div className="col-md-12">
-                <h4>Mission Statement</h4>
+                <h4 style={{textAlign:"center"}}>Mission Statement</h4>
                 <p>
                     Front-end web developer with a business communications background who is passionate about creating more user focused content on the web. A recent University of Minnesota Full Stack Development certificate holder looking to continue to expand knowledge further in Node.js, JavaScript, CSS and more. Known for a can do attitude and tenacious personality: Always looking at each project individually and hope to bring a new perspective while also pinpointing issues, and troubleshooting along the way. Eager to contribute to building user-friendly apps. Hopeful to join your team and further develop skills in a solution-focused environment. 
                   </p>
@@ -34,8 +35,9 @@ function About() {
             </div>
           </div>
     
-      <Footer />
-    </div>
+     
+    
+    
   );
 }
 

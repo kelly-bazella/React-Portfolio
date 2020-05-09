@@ -3,8 +3,12 @@ import React from "react";
 function Footer() {
   return (
   
-      <footer className="page-footer" style={{backgroundColor:"salmon"}}>
-        <h4>Hello this is the Footer</h4>
+      <footer className="fixed-bottom" style={{backgroundColor:"salmon", height: "60px"}}>
+        <div className="container">
+        <h4>Kelly Bazella</h4>
+        <p>Aspiring Web Developer</p>
+        </div>
+       
       </footer>
     
   );

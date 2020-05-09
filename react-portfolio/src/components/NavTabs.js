@@ -2,12 +2,23 @@ import React from "react";
 
 function NavTabs(props) {
   return (
-    <div className="container">
+    // <div className="container">
       <div className="row">
         <div className="col-md-8">
-          <h1>Kelly Bazella</h1>
+          <a
+            href="#about"
+            onClick={() => props.handlePageChange("About")}
+            className="nav-link"
+            style={{
+              textDecoration: "none",
+              color: "black",
+              fontFamily: "Montserrat",
+            }}
+          >
+            <h1>Kelly Bazella</h1>
+          </a>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" >
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <ul className="nav nav-tabs">
               <li className="nav-item">
@@ -15,6 +26,8 @@ function NavTabs(props) {
                   href="#about"
                   onClick={() => props.handlePageChange("About")}
                   className="nav-link"
+                  style={{textDecoration: "none",
+                  color: "black",}}
                 >
                   About
                 </a>
@@ -24,6 +37,8 @@ function NavTabs(props) {
                   href="#portfolio"
                   onClick={() => props.handlePageChange("Portfolio")}
                   className="nav-link"
+                  style={{textDecoration: "none",
+                  color: "black",}}
                 >
                   Portfolio
                 </a>
@@ -33,6 +48,8 @@ function NavTabs(props) {
                   href="#contact"
                   onClick={() => props.handlePageChange("Contact")}
                   className="nav-link"
+                  style={{textDecoration: "none",
+                  color: "black",}}
                 >
                   Contact
                 </a>
@@ -41,7 +58,7 @@ function NavTabs(props) {
           </nav>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 
