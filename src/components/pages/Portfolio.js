@@ -176,7 +176,7 @@ function Portfolio() {
                 href="https://github.com/kelly-bazella/Employee-Directory"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="fa fa-linkedin"
+                className="btn btn-dark"
               >
                 Click to see the repository
               </a>

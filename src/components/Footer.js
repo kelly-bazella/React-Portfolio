@@ -9,14 +9,7 @@ function Footer() {
           <h4>Kelly Bazella</h4>
         <p>Aspiring Web Developer</p>
           </div>
-        <div className="col-md-3">
-         <a href="https://www.linkedin.com/in/kellybazella/" 
-           target="_blank"
-           rel="noopener noreferrer"
-           className="btn btn-primary"
-         >LinkedIn</a>
-       
-        </div>
+        
         </div>
        
       </footer>
