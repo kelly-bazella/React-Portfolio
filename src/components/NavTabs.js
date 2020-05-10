@@ -19,7 +19,7 @@ function NavTabs(props) {
           </a>
         </div>
         <div className="col-md-4" >
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul className="nav nav-tabs">
               <li className="nav-item">
                 <a

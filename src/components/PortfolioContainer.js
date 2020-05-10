@@ -25,6 +25,9 @@ class PortfolioContainer extends Component {
         case "Contact":
             result=<Contact />
             break;
+        default:
+          result =<About />
+        break;
     }
     return result;
   };

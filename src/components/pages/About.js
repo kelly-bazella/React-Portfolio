@@ -28,7 +28,7 @@ function About() {
                     Front-end web developer with a business communications background who is passionate about creating more user focused content on the web. A recent University of Minnesota Full Stack Development certificate holder looking to continue to expand knowledge further in Node.js, JavaScript, CSS and more. Known for a can do attitude and tenacious personality: Always looking at each project individually and hope to bring a new perspective while also pinpointing issues, and troubleshooting along the way. Eager to contribute to building user-friendly apps. Hopeful to join your team and further develop skills in a solution-focused environment. 
                   </p>
                 <p>
-                    {/* <a href = "Assets/images/Resume.pdf" target="_blank">Click here</a> for a copy of my resume.  */}
+                    <a href = "Assets/images/Resume.pdf" target="_blank">Click here</a> for a copy of my resume. 
                 </p>
                 
               </div>

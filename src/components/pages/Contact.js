@@ -7,7 +7,7 @@ function Contact() {
       <hr />
 <br />
       <p className="text-center w-responsive mx-auto mb-5">
-        Please don't hesitate to reach out, I would love to hear from you!
+        Please don't hesitate to reach out, I would love to hear from you! Also, connect with me on <a href="https://www.linkedin.com/in/kellybazella/">LinkedIn</a> and check out my respositories on <a href="https://github.com/kelly-bazella">GitHub</a>.
       </p>
 
       <div className="row">
@@ -81,12 +81,11 @@ function Contact() {
           </form>
 
           <div className="text-center text-md-left">
-            <a
+            <button
               className="btn btn-info"
-              onclick="document.getElementById('contact-form').submit();"
             >
               Send
-            </a>
+            </button>
           </div>
           <div className="status"></div>
         </div>

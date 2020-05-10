@@ -23,6 +23,7 @@ function Portfolio() {
               <a
                 href="https://github.com/stevekindt/Project-1"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark"
               >
                 Click to see the app
@@ -30,6 +31,7 @@ function Portfolio() {
               <a
                 href="https://github.com/stevekindt/Project-1"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
               >
                 Click to see the repository
@@ -53,6 +55,7 @@ function Portfolio() {
               <a
                 href="https://gold-team-quiz.herokuapp.com/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark"
               >
                 Click to see the app
@@ -60,6 +63,7 @@ function Portfolio() {
               <a
                 href="https://github.com/kelly-bazella/Project-2"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
               >
                 Click to see the repository
@@ -83,12 +87,10 @@ function Portfolio() {
                 This app was created using HTML, JavaScript, and BootStrap CSS
                 framework.
               </p>
-              <a href="#" target="_blank" className="btn btn-dark">
-                Click to see the app
-              </a>
               <a
                 href="https://github.com/kelly-bazella/Password-Generator"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
               >
                 Click to see the repository
@@ -114,6 +116,7 @@ function Portfolio() {
                 a
                 href="https://github.com/kelly-bazella/Employee-Tracker"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
               >
                 Click to see the repository
@@ -141,6 +144,7 @@ function Portfolio() {
               <a
                 href="https://github.com/kelly-bazella/Profile-Generator"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark"
               >
                 Click to see the repository
@@ -163,6 +167,7 @@ function Portfolio() {
               <a
                 href="https://bazella-employee-tracker.herokuapp.com/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-dark"
               >
                 Click to see the app
@@ -170,7 +175,8 @@ function Portfolio() {
               <a
                 href="https://github.com/kelly-bazella/Employee-Directory"
                 target="_blank"
-                className="btn btn-primary"
+                rel="noopener noreferrer"
+                className="fa fa-linkedin"
               >
                 Click to see the repository
               </a>
