@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="container">
-      <h3>Contact</h3>
+      <h3 style={{textAlign:"center"}}>Contact</h3>
       <hr />
 <br />
       <p className="text-center w-responsive mx-auto mb-5">

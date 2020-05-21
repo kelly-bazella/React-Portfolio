@@ -8,7 +8,7 @@ function About() {
     
         
         <div className="container">
-            <h2
+            <h2 style={{textAlign:"center"}}
             >About Me</h2>
             <hr />
             <div className="row">
